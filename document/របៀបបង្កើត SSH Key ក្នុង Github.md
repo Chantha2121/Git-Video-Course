@@ -105,6 +105,23 @@ git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
 git remote -v
 ```
 
+## 8) Create/update SSH config
+
+Open:
+
+```
+nano ~/.ssh/config
+```
+
+Add this:
+```
+Host github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+```
+Save (CTRL+O, ENTER, CTRL+X)
+
 ## បញ្ហាដែលជួបញឹកញាប់
 
 - `Permission denied (publickey)`:
