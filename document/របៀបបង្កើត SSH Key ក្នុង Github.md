@@ -79,7 +79,7 @@ cat ~/.ssh/id_ed25519.pub
 ssh -T git@github.com
 ```
 
-បើជោគជ័យ អ្នកនឹងឃើញសារ类似៖
+បើជោគជ័យ អ្នកនឹងឃើញសារ៖
 
 ```text
 Hi username! You've successfully authenticated, but GitHub does not provide shell access.
